@@ -15,7 +15,7 @@ Resources:
   EC2:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-0080e4c5bc078760e # Linux (1), N.Virginia - Sept 2016
+      ImageId: ami-0e9089763828757e1 # Linux (1), N.Virginia - Sept 2016
       InstanceType: t2.micro
   S3:
     Type: "AWS::S3::Bucket"
